@@ -1,0 +1,69 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background:url(../image/Wood\ wallpaper\ tablet.jpg)no-repeat center/cover ; 
+  width: 100%;
+  height: 100dvh;
+  transition: 1s;
+}
+
+.navbar-brand{
+  margin-left: 5%;
+
+}
+.navbar-nav{
+font-size: 22px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.bb{
+  margin-right: 5%;
+}
+/*-------------------------------------------------*/
+
+h1{
+  color: red;
+  text-align: center;
+  position: relative;
+}
+
+.content{
+  margin-top: 150px;
+display: block;
+background-color: rgb(0, 0, 0 , 0.9);
+border-top: 2px solid white;
+}
+
+#target1 , #target2 , #target3 ,#target4{
+  background-color: black;
+  width: 100%;
+  height: 300px;
+   transition: 1s;
+}
+#target1:hover, #target2:hover , #target3:hover ,#target4:hover{
+  background-color: rgb(0, 0, 0 , 0.5);
+  box-shadow: 2px 8px 9px 10px gold;
+ 
+  transform: scale(1.1, 1.1);
+}
+/*-----------------------------------------------------------------*/
+.box{
+
+  width: 100%;
+  height: 400px;
+    margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+#box1, #box2 , #box3 ,#box4{
+      transition: 1s;
+ 
+}
+#box1:hover, #box2:hover , #box3:hover ,#box4:hover{
+
+  transform: scale(1.1, 1.1);
+}
